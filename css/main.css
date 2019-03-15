@@ -1,0 +1,1753 @@
+html, body {
+	margin: 0;
+	padding: 0;
+
+}
+/*
+  .text-box > article > div p:first-child {
+  
+  } 
+  .text-box > article > div p:last-child {
+  
+  }
+*/
+body {
+	background: url('../img/bordo.jpg') repeat;
+	font-family: verdana;
+	font-weight: bold;
+}
+div#wrapper {
+	width:1366px;
+	margin: 0 auto;
+	background: #fff;
+	/*border-radius:100px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	-moz-border-radius: 10px;*/
+}
+/* Clearfix */
+	#header:after, #top-nav:after, #top-nav ul:after, div.car-image, div.info-panel:after, 
+	div.features:after,div.cars-container:after, div.template:after, div.car-features:after,
+  div.right-side:after,div.left-side:after, div.main-footer:after, div.work-time:after,
+  div.copyright:after, div.content:after, div#main:after, ul.centered-menu:after,
+  div.centered-content-menu:after, section.polls-section:after,div.three-polls:after,
+  div.contact-page-content:after, div.main-content-center:after, div.working-time:after,
+  div.news-container:after,  div.insert-car-form form div.fields:after,
+  div.about-us article div.about-us-content:after,div.create:after,
+  div#main div.main-news-page article div.news-container div.inner-content:after,
+  div.create div.last-news   article div.news-container div.inner-content:after,
+  div.article article :after,div#main div.buy-car-wrap form div.car-profile div.add-info:after,
+  div.article article :after,div#main div.buy-car-wrap form div.car-profile:after,
+  div#main div.buy-car-wrap form div.buyer-profile:after, div.bought-car-vision fieldset div.details:after, 
+  div.bought-car-vision fieldset div.bought-car-image:after, div.bought-car-vision fieldset:after
+
+   {
+		display: block;
+		clear:both;
+		content: "";
+		_zoom:1;
+		height: 0;
+	}
+/* End of clearix */
+
+/*
+	---------------------------------------------------------------------------------------
+	Start Header
+	---------------------------------------------------------------------------------------
+*/
+  
+	#top-nav {	
+		padding:1px ;
+   
+    
+	}
+		#top-nav ul {
+			list-style: none;
+			background: #b80404;
+			border-bottom: 3px solid #343434;
+		}
+			#top-nav ul > li {
+				float:left;
+			}
+				#top-nav ul > li a {
+					color:#fff;
+					text-decoration: none;
+					padding: 15px 20px;
+					display: inline-block;
+				}
+				#top-nav ul > li a:hover {
+					background: #343434;
+				}
+					#top-nav ul > li a > span {
+						background: url('../img/home.png') center 6px no-repeat;
+						padding: 15px;
+					}
+
+	
+
+/*
+	--------------------------------------------------------------------------------------
+	End of Header
+	--------------------------------------------------------------------------------------
+*/
+
+
+
+/*
+	--------------------------------------------------------------------------------------
+	Main part
+	--------------------------------------------------------------------------------------
+*/
+/*
+-----------------------------------------------
+HOME page starts
+-----------------------------------------------
+*/
+ div.content{
+      margin:20px 0 0 40px;
+        }
+  div.content div.gallery-and-text, div.content div.links{
+  
+    float:left;
+  }
+  /*Article*/
+  /*Our mission part*/
+  div.gallery-and-text  div.text-box{
+      width:900px;
+      height:365px;
+      background:#fff;
+      border:1px solid #b80404;
+      overflow:hidden;
+      
+
+      }
+      div.gallery-and-text  div.text-box article p.title{
+        
+        font-size:18px;
+       
+      }
+      div.gallery-and-text  div.text-box article p.par-content{
+        text-indent:10%;
+         font-size:13px;
+         line-height:25px;
+         font-family:verdana;
+         margin:0 10px 15px 5px;
+      }
+  /*End of OUr Mission page*/
+  /*News-section starts*/
+    div.gallery-and-text div.latest-news{
+      overflow:scroll;
+    }
+     div.gallery-and-text div.latest-news p.title{
+        margin-left:30px;
+      }
+
+     div.gallery-and-text div.latest-news article div.news-container{
+      margin:0 0 20px 30px;
+      background:#F5F5F5;
+      box-shadow:2px 2px 3px #E0E0E0;
+      padding:0;
+    }
+       div.gallery-and-text div.latest-news article div.news-container 
+       div.img{
+        float:left;
+        margin:10px 0 0 0;
+
+       }
+       div.gallery-and-text div.latest-news article div.news-container 
+       div.img img{
+        width:270px;
+        height:185px;
+       }
+       div.gallery-and-text div.latest-news article div.news-container 
+       div.inner-content{
+        float:left;
+        width:300px;
+        margin:0 0 0 15px;
+       }
+        div.gallery-and-text div.latest-news article div.news-container 
+        div.inner-content p.news-title a{
+          text-decoration:none;
+          font-size:16px;
+          color:#000;
+        }
+        div.gallery-and-text div.latest-news article div.news-container 
+        div.inner-content p.news-text{
+          font-size:13px;
+          color:#707070;
+          line-height:20px
+
+        }
+        p.news-text {
+          text-align: justify;
+
+        }
+        p.news-text::first-letter {
+          color:red;
+        }
+        div.gallery-and-text div.latest-news article div.news-container 
+        div.inner-content span{
+          display:inline-block;
+          font-size:13.5px;
+          color:#383838;
+        }
+        
+
+
+  /* End of News-section */
+  /* Contacts */
+
+     div.gallery-and-text div.contacts {
+      
+      font-style:italic;
+      height:auto;
+
+     }
+      div.gallery-and-text div.contacts article{
+        margin-left:70px;
+      }
+
+        div.gallery-and-text div.contacts article h3{
+          
+          margin-bottom:50px;
+        }
+          div.gallery-and-text div.contacts article p{
+            margin-bottom:20px;
+           
+          }
+            div.gallery-and-text div.contacts article p>span{
+              color:#660000;
+            }
+          div.gallery-and-text div.contacts article>span{
+            display:inline-block;
+            margin-top:20px;
+            margin-bottom:20px;
+            font-size:14px;
+          } 
+           div.gallery-and-text div.contacts article>span a{
+            text-decoration:none;
+           }
+
+
+  /* End of Contacts */
+
+  /*FAQ-page*/
+      div.gallery-and-text  div.FAQ{
+        
+        overflow:scroll;
+      } 
+       div.gallery-and-text  div.FAQ article div{
+        margin-bottom:40px;
+       }
+       div.gallery-and-text  div.FAQ article div>p:first-child {
+        margin:0 0 10px 20px;
+        font-size:15px;
+        font-style:italic;
+        
+       }
+        div.gallery-and-text  div.FAQ article div>p:last-child{
+        margin-left:20px;
+        font-size:13px;
+        font-weight:normal;
+
+        }
+  /*End of FAQ page*
+    
+  /*End of Article*/
+
+  /*
+  ---------------
+  Centered Menu */
+
+   div.centered-content-menu{
+   
+   }
+    ul.centered-menu{
+      list-style:none;
+      background: #b80404;
+      margin-top:10px;
+      margin-bottom:10px;
+      border:1px solid #fff;
+      float:left;
+      }
+
+    ul.centered-menu>li{
+      float:left;
+       
+     
+    }
+    
+    ul.centered-menu>li a {
+      text-decoration:none;
+      padding:10px 25px;
+      display:inline-block;
+      text-align:center;
+      color:#fff;
+      border-left:2px solid #010101;
+      width:120px;
+
+    }
+
+   
+  /*End of Centered Menu*/
+
+  /*Polls sections starts*/
+
+   div.gallery-and-text section.polls-section div.three-polls{
+     
+      width:900px;
+      margin:15px 0 0 0;
+      background:#fff;
+      float:left;
+      padding-bottom:10px;
+   
+    }
+      section.polls-section div.three-polls h2{
+        font-size:20px;
+        text-align:center;
+        font-family:Georgia;
+        color:#b80404;
+
+      }
+      section.polls-section div.three-polls div.f-poll {
+       float:left;
+       margin:10px 0 0 90px;
+
+      }
+      section.polls-section div.three-polls div.s-poll{
+       float:left;
+       margin:10px 0 0 110px;
+      }
+      section.polls-section div.three-polls div.t-poll{
+        float:left;
+        margin:10px 0 0 110px;
+      }
+  /*End of polls-section*/
+  
+  div.links{
+    width:250px;
+    margin: 0 0 20px 10px;
+    background: #F5F5F5;
+      border:1px solid  #b80404;
+      padding-bottom:120px;
+     word-wrap: break-word;
+
+    }
+      div.links aside p{
+        margin:25px 0 0 10px;
+        font-size:18px;
+        font-family:serif;
+        color:#000;
+        
+
+      }
+    div.links aside ul{
+      list-style:none;
+      margin-left:15px;
+      margin-top:0;
+      padding:0;
+      
+    }
+     div.links aside ul >p{
+      font-size:13.5px;
+      color:#000;
+      margin:30px 0 0 0;
+      font-weight:bold;
+     }
+
+     div.links aside ul li{
+      background: url('../img/link-icon.png') left  no-repeat ;
+      padding-left:20px;
+     }
+      
+     div.links aside ul li a{
+      text-decoration:none;
+      /*padding-top:10px;*/
+      display: block;
+      font-size:11px;
+      font-style:italic;
+      color:#484848;
+      cursor:pointer;
+      
+     }
+
+/*
+-----------------------------------------------
+End of HOME page 
+-----------------------------------------------
+*/
+
+
+
+/*
+-----------------------------------------------
+About us page starts
+-----------------------------------------------
+*/
+ div#main div.about-us-heading h1{
+  margin:30px 0 25px 60px;
+  font-size:28px;
+  letter-spacing:1px;
+  color:#363033;
+  font-family:Times New Roman;
+  text-shadow: 1px 1px #696969;
+ }
+ div#main div.about-us{
+  padding-left:25px;
+  border-top:1px solid #BEBEBE;
+  margin-top:20px;
+  background:#F5F5F5;
+  padding-top:30px;
+ }
+   div.about-us div.about-us-content div.fig-side,
+   div.about-us div.about-us-content div.text
+   {
+    float:left;
+   }
+   div.about-us div.about-us-content div.text{
+    width:720px;
+   }
+     div.about-us div.about-us-content div.text> h4{
+      font-size:16px;
+      margin-bottom:0;
+     }
+     div.about-us div.about-us-content div.text> p{
+      line-height:24px;
+      color:#606060;
+      font-size:15px;
+     }
+       div.about-us div.about-us-content div.fig-side figure figcaption{
+        font-size:12px;
+        margin-top:10px;
+       }
+         div.about-us div.about-us-content div.fig-side figure a img{
+          border-radius:3px;
+          box-shadow:5px 5px 2px #DCDCDC;
+         }
+/*
+-----------------------------------------------
+End of About us page
+-----------------------------------------------
+*/
+
+/*
+-----------------------------------------------
+ALL CARS page starts
+-----------------------------------------------
+*/
+  html{
+    font-size:20px !important;
+  }
+  div.heading{
+     width:1346px;
+     margin-top:60px;
+     margin-bottom:5px;
+     background:#b80404;
+     text-align:center;
+     color:#fff;
+     padding:10px;
+     font-size:13px !important;
+  }
+  div.cars-container {
+    width:1346px;
+    margin:0 0 50px 20px;
+    background:#fff;
+
+  }
+    div.cars-container div.info-panel{
+      float:left;
+      width:505px;
+      margin:0;
+      padding:0;
+    }
+    div.cars-container div.buttons {
+      float:right;
+      margin:15px 115px 0 0;
+    
+    }
+      div.cars-container div.buttons  a.buy {
+      	display: inline-block;
+      	color:#fff;
+      	text-decoration: none;
+      	background: #b80404;
+      	border:1.5px solid #412d2a;
+      	font-weight: normal;
+      	padding: 2px 15px;
+      }
+ 
+  
+  div.car-image img {
+  	 width:200px;
+  	 float:left;
+  	 margin:0 0 0 30px;
+  }
+  div.car-info{
+  	 margin:0 0 0 15px;
+  	 float:left;
+
+  }
+  	div.car-info h3{
+  		border-bottom:3px solid #b80404;
+  		margin:5px 0 0 0;
+  		color:#404040;
+    }
+ 	div.car-info ul {
+  	 	list-style:none;
+  	 	margin:0;
+  	 	padding:0;
+  	 	width:260px;
+     }
+    	div.car-info ul li {
+        	border-bottom:2px solid #B8B8B8;
+        	font-size:12px;
+        	color:#808080;
+
+      } 
+       	 	
+       	div.car-info ul li:first-child {
+       	 	background: url('../img/1bullet.png') left 5px no-repeat ;
+       	 	padding:5px 0 5px 20px;
+       	}
+       	div.car-info ul li:nth-child(2) {
+       	 	background: url('../img/2bullet.png') left 5px no-repeat ;
+       	 	padding:5px 0 5px 20px;
+       	}
+       	div.car-info ul li:nth-child(3) {
+       	 	background: url('../img/3bullet.png') left 5px no-repeat ;
+       	 	padding:5px 0 5px 20px;
+       	}
+       	div.car-info ul li:nth-child(4) {
+       	 	background: url('../img/4bullet.png') left 5px no-repeat ;
+       	 	padding:5px 0 5px 20px;
+       	}
+       	div.car-info ul li:nth-child(5) {
+       	 	background: url('../img/5bullet.png') left 5px no-repeat ;
+       	 	padding:5px 0 5px 20px;
+       	}
+       	div.car-info ul li:last-child {
+       	 	background: url('../img/6bullet.png') left 5px no-repeat ;
+       	 	padding:5px 0 5px 20px;
+       	}
+       		div.car-info ul li > span {
+       	 	 	color:#b80404;
+       	 }
+div.features{
+	float:left;
+	margin:0 0 0 65px;
+}
+	div.features ul {
+    	list-style: none; 
+    	padding: 0;
+    	margin: 0; 	
+	}
+	div.features h3{
+  		border-bottom:3px solid #b80404;
+  		margin:5px 0 0 0;
+  		color:#404040;
+  		text-align: right;
+    }
+    div.features ul.f-menu {
+    	float:left;
+      width:340px;
+    }
+    div.features ul.s-menu {
+    	float:left;
+      width:340px;
+    }
+    div.features ul li {
+    	
+    	border-bottom:2px solid #B8B8B8;
+
+    	font-size:12px;
+    	color:#808080;  
+      background: url('../img/okay.jpg') left 5px no-repeat ;
+      padding:5px 20px 5px 30px;    
+    }
+    
+    div.features ul.f-menu li {
+    	padding-right: 10px;
+    }
+  
+/*
+-----------------------------
+   View-car starts
+-----------------------------
+*/
+div.template{
+  margin: 0 0 0 80px;
+}
+  div.template> h2 {
+     margin:50px 0 0 70px;
+     color:#808080;
+  }
+
+div.left-side {
+   float:left;
+   margin-top:30px;
+   
+}
+  div.left-side div.main-pic > img{
+   width:370px;
+   margin:0 0 0 40px;
+   max-width:80%;
+   margin-bottom: 10px;
+   border-radius:5px;
+   -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+  cursor:pointer;
+  
+
+  }
+  div.left-side div.smaller-pics{
+    margin-left:40px;
+}
+  div.left-side div.smaller-pics > img {
+   width:100px;
+   height: 50px !important;
+   margin:0 0 0 5px;
+   border:1px solid #fff;
+}
+
+  div.left-side div.smaller-pics > img:hover{
+   cursor:pointer;
+    -webkit-filter: contrast(100%); 
+          filter: contrast(100%);
+          transform: scale(1.1);
+}
+  
+div.right-side{
+   float:left;
+   
+   
+}
+  
+  div.right-side div.car-features ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    width:280px;
+
+  }
+    div.right-side div.car-features ul.f-menu {
+
+      float:left;
+    }
+
+    div.right-side div.car-features ul.s-menu
+    {
+    
+      float:left;
+    }
+    
+    div.right-side div.car-features ul li {
+      /*padding:3px;*/
+      border-bottom:2px solid #B8B8B8;
+      font-size:12px;
+      color:#808080;
+    }
+    div.right-side div.car-features ul.f-menu li:first-child{
+      background: url('../img/2bullet.png') left 5px no-repeat ;
+      padding:5px 0 5px 25px;
+    }
+    div.right-side div.car-features ul.f-menu li:nth-child(2){
+      background: url('../img/3bullet.png') left 5px no-repeat ;
+      padding:5px 0 5px 25px;
+    }
+    div.right-side div.car-features ul.f-menu li:nth-child(3){
+      background: url('../img/5bullet.png') left 5px no-repeat ;
+      padding:5px 0 5px 25px;
+    }
+    div.right-side div.car-features ul.f-menu li:nth-child(4){
+      background: url('../img/2bullet.png') left 5px no-repeat ;
+      padding:5px 0 5px 25px;
+    }
+    div.right-side div.car-features ul.f-menu li:nth-child(5){
+      background: url('../img/6bullet.png') left 5px no-repeat ;
+      padding:5px 0 5px 25px;
+    }
+    div.right-side div.car-features ul.f-menu li:last-child{
+      background: url('../img/1bullet.png') left 5px no-repeat ;
+      padding:5px 0 5px 25px;
+    }
+    div.right-side div.car-features ul li > span{
+      color:#b80404;
+    }
+
+    div.right-side div.car-features ul.s-menu li:first-child{
+      background: url('../img/1bullet.png') left 5px no-repeat ;
+      padding:5px 0 5px 25px;
+    }
+    div.right-side div.car-features ul.s-menu li:nth-child(2){
+      background: url('../img/6bullet.png') left 5px no-repeat ;
+      padding:5px 0 5px 25px;
+    }
+    div.right-side div.car-features ul.s-menu li:nth-child(3){
+      background: url('../img/1bullet.png') left 5px no-repeat ;
+      padding:5px 0 5px 25px;
+    }
+    div.right-side div.car-features ul.s-menu li:nth-child(4){
+      background: url('../img/2bullet.png') left 5px no-repeat ;
+      padding:5px 0 5px 25px;
+    }
+    div.right-side div.car-features ul.s-menu li:last-child{
+      background: url('../img/1bullet.png') left 5px no-repeat ;
+      padding:5px 0 5px 25px;
+    }
+    div.right-side div.car-features ul.f-menu li{
+      padding-right:100px;
+    }
+    
+
+div.right-side div.additional-info h3 {
+  border-bottom:3px solid #b80404;
+  color:#808080;
+  padding-bottom:5px;
+  margin: 10px 0 0 0;
+
+}
+div.right-side div.additional-info ul {
+  list-style:none;
+  margin:0;
+  padding:0;
+  width:280px;
+}
+  div.right-side div.additional-info ul.f1-menu{
+    float:left;
+  }
+  div.right-side div.additional-info ul.s1-menu{
+    float:left;
+  }
+  div.right-side div.additional-info ul li {
+    border-bottom:2px solid #B8B8B8;
+    font-size:12px;
+    color:#808080;
+    background: url('../img/okay.jpg') left 5px no-repeat ;
+    padding:5px 0 5px 25px; 
+  }
+   div.template div.view-car-buttons{
+    float:left;
+    margin:10px 0 30px 825px;
+   }
+     div.template div.view-car-buttons a{
+      display: inline-block;
+      color:#fff;
+      text-decoration: none;
+      background: #b80404;
+      border:1.5px solid #412d2a;
+      font-weight: normal;
+      padding: 2px 15px;
+   }
+
+  
+/*
+-----------------------------
+  End of view-car
+-----------------------------
+*/
+/*
+-----------------------------
+  Buy-button page starts
+-----------------------------
+*/
+
+ div#main div.buy-car-wrap{
+  padding:20px 0 0 65px;
+
+
+ }
+  div#main div.buy-car-wrap form div.car-profile h3
+  {
+      font-style:italic;
+      font-size: 23px;
+      color:#b80404;
+
+  }
+  div#main div.buy-car-wrap form input{
+     color:#fff;
+          background:#b80404;
+          border:1.5px solid #b30000;
+          font-weight: normal;
+          padding: 10px 8px;
+          border-radius:3px;
+          -webkit-border-radius:3px;
+          -o-border-radius:3px;
+          -moz-border-radius:3px;
+          cursor:pointer;
+          width:120px;
+          font-family:cursive;
+          margin-bottom:40px;
+
+  }
+  
+  div#main div.buy-car-wrap form div.car-profile div.add-pic,
+  div#main div.buy-car-wrap form div.car-profile div.add-info
+  {
+    float:left;
+  }
+
+  div#main div.buy-car-wrap form div.car-profile div.add-pic img{
+    width:300px;
+    height:200px;
+  }
+
+  div#main div.buy-car-wrap form div.car-profile div.add-info ul{
+    list-style:none;
+    width:300px;
+    float:left;
+    margin-left:10px;
+    margin-top:40px;
+  }
+   div.buy-car-wrap form div.car-profile div.add-info ul li{
+    display:block;
+    padding:5px 0 10px 0;
+    border-bottom:2px solid #D3D3D3;
+
+    }
+    div.buy-car-wrap form div.car-profile div.add-info ul li span{
+      color:#b80404;
+    }
+    
+  
+    div#main div.buy-car-wrap form div.car-profile div.buyer-profile ul {
+    width:300px;
+    list-style:none;
+    float:left;
+    margin:-48px 0 0 20px;
+  }
+     div#main div.buy-car-wrap form div.car-profile div.buyer-profile ul li{
+      display:block;
+      padding:5px 0 10px 0;
+      border-bottom:2px solid #D3D3D3;
+
+    }
+       div#main div.buy-car-wrap form div.car-profile div.buyer-profile ul li >p{
+         font-style:italic;
+         font-size: 22px;
+         color:#b80404;
+
+         }
+         div#main div.buy-car-wrap form div.car-profile div.buyer-profile ul li >span{
+          color:#b80404;
+         }
+/*
+-----------------------------
+ End  of  Buy-button page 
+-----------------------------
+*/
+
+/* 
+-----------------------------------------------
+  End of ALL CARS
+-----------------------------------------------
+
+*/
+/* 
+-----------------------------------------------
+  Bought cars starts
+-----------------------------------------------
+*/
+div#main div.bought-car-vision{
+  width:1205px;
+  margin: 20px 0 0 70px;
+}
+    div.bought-car-vision fieldset{
+      margin-bottom:20px;
+      background:#F5F5F5;
+      border-radius:5px;
+      -webkit-border-radius: 5px;
+      -o-border-radius: 5px;
+      -moz-border-radius:5px;
+      padding:50px 0 50px 20px;
+    }
+     div.bought-car-vision fieldset legend{
+      text-align:center;
+     }
+     div.bought-car-vision fieldset div.bought-car-image {
+      float:left;
+     }
+      div.bought-car-vision fieldset div.bought-car-image img{
+        width:350px;
+        height:250px;
+        box-shadow: 3px 3px 3px #A9A9A9; 
+        border-radius:5px;
+        -webkit-border-radius: 5px;
+        -o-border-radius: 5px;
+        -moz-border-radius:5px;
+        cursor:pointer;
+      }
+     div.bought-car-vision fieldset div.details{
+      float:left;
+      margin-top:20px;
+     }
+      div.bought-car-vision fieldset div.details ul {
+          list-style:none;
+          width:300px;
+          float:left;
+       }
+        div.bought-car-vision fieldset div.details ul li{
+          display:block;
+          padding:10px;
+          font-size:15px;
+          border-bottom:1px solid red;
+        }
+          div.bought-car-vision fieldset div.details ul li > span{
+            color:#b30000;
+            font-style:italic;
+            display:inline-block;
+            margin-left:10px;
+          }
+
+/* 
+-----------------------------------------------
+  End of Bought cars 
+-----------------------------------------------
+*/
+/* 
+-----------------------------------------------
+   Add-new-car starts
+-----------------------------------------------
+*/
+ div.insert-car-form {
+  margin:0 auto;
+ /* width:800px;*/
+  background:#484848;
+  opacity:0.8;
+ 
+
+ }   
+
+     div.insert-car-form div.title{
+      background:#b80404;
+
+
+     }
+     div.insert-car-form div.title h2{
+      margin-left:10px;
+      padding:10px;
+      /*text-align:left;*/
+      text-align:center;
+      color:#fff;   
+      font-family:cursive; 
+       }
+
+   
+    div.insert-car-form form div.f-eight{
+      margin-left:65px;
+    }
+    div.insert-car-form form div.s-eight{
+      margin-left:75px;
+    }
+
+   div.insert-car-form form div.f-eight,
+   div.insert-car-form form div.s-eight{
+    float:left;
+    width:600px;
+   }
+   div.insert-car-form form div.f-eight span,
+   div.insert-car-form form div.s-eight span
+    {
+    display: block;
+    margin-top:15px;
+    /*margin-left:50px;*/
+  
+   }
+       div.insert-car-form form div.f-eight span input,
+       div.insert-car-form form div.s-eight span input{
+       
+       margin-left:20px;
+       width:300px;
+       height:30px;
+       border-radius:5px;
+       border:2px solid #fff;
+   }
+
+   div.insert-car-form form span strong{
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+    font-family: cursive;
+   }
+   /*div.insert-car-form form .fields {
+    margin: 0 0 20px 0;
+   }*/
+  div.insert-car-form div.buttons{
+    background:#b80404;
+    padding:10px 0 10px 1065px;
+  }
+  
+   
+   div.insert-car-form div.buttons input[type=submit],
+   div.insert-car-form div.buttons input[type=reset]{
+      color:#fff;
+      background: #663300;
+      border:1.5px solid #1a0d00;
+      font-weight: normal;
+      padding: 9px 8px;
+      border-radius:3px;
+      cursor:pointer;
+      width:100px;
+      font-family:cursive;
+      
+   }
+/* 
+-----------------------------------------------
+   End of add-new-car
+-----------------------------------------------
+*/
+
+/* 
+-----------------------------------------------
+   All news page starts
+-----------------------------------------------
+*/
+ div#main>h2.news-title{
+  margin:20px 0 0 70px;
+  font-size:28px;
+  letter-spacing:1px;
+  color:#363033;
+  font-family:verdana;
+  /*text-shadow: 1px 1px #696969;*/
+
+ }
+ div#main div.main-news-page{
+ /* height:800px;*/
+  margin:30px 0 0 0px;
+  width:99.8%;
+ }
+
+     div#main div.main-news-page article div.news-container{
+      /*margin:0 0 20px 30px;*/
+     
+      background:#F5F5F5;
+      box-shadow:2px 3px #E0E0E0;
+      padding:10px 0 20px 65px;
+      margin-bottom:30px;
+    }
+       div#main div.main-news-page article div.news-container 
+       div.img{
+        float:left;
+        margin:10px 0 0 0;
+       }
+       div#main div.main-news-page article div.news-container 
+       div.img img{
+        width:300px;
+        height:260px;
+       }
+
+        div#main div.main-news-page article div.news-container 
+        div.inner-content{
+        float:left;
+        margin:0 0 0 15px;
+        width:850px;
+
+       }
+         div#main div.main-news-page div.news-container 
+        div.inner-content p.news-title a{
+          text-decoration:none;
+          font-size:16px;
+          color:#000;
+        }
+         div#main div.main-news-page article div.news-container 
+        div.inner-content p.news-text{
+          font-size:13px;
+          color:#707070;
+          line-height:20px;
+           word-wrap: break-word;
+
+        }
+        div#main div.main-news-page article div.news-container 
+        div.inner-content span{
+          display:inline-block;
+          font-size:13.5px;
+          color:#383838;
+        }
+        div#main div.main-news-page article div.news-container 
+        div.inner-content a.view-more{
+          text-decoration:none;
+          font-size:14.5px;
+          float:right;
+          margin-right:15px;
+          color: #b80404;
+        }
+
+/*
+-----------------------------------------------
+   End of all-news-page
+-----------------------------------------------
+*/
+
+
+/* 
+-----------------------------------------------
+   Add news page starts
+-----------------------------------------------
+*/
+ div.create div.add-news-form{
+    margin:0 0 0 80px;
+    float:left;
+
+   }
+    div.create div.add-news-form div.title h2 {
+      font-size:23px;
+      letter-spacing:1px;
+      color:#000;
+      font-family:cursive;
+      margin-bottom: 30px;
+     }
+       div.create div.add-news-form  form div.fields span{
+      display:block;
+      padding-bottom:20px;
+      
+     }
+        div.create div.add-news-form  form div.fields span label{
+          display:block;
+          padding-bottom:10px;
+          font-size:13.5px;
+         /* font-weight:normal;*/
+          color:#707070;
+          font-family: cursive;
+        }
+          div.create div.add-news-form  form div.fields span input{
+          width:573px;
+          height:30px;
+          border:1px solid #C0C0C0;
+          border-radius:2px;
+          -webkit-border-radius:2px;
+          -o-border-radius:2px;
+          -moz-border-radius:2px;
+        }
+          div.create div.add-news-form  form div.fields span textarea{
+          width:570px; 
+          height:200px;
+          resize:none;
+          background:#ffe6e6;
+         }
+           div.create div.add-news-form  form div.buttons input[type=submit],
+          div.create div.add-news-form  form div.buttons input[type=reset]
+           {
+          color:#fff;
+          background:#b80404;
+          border:1.5px solid #b30000;
+          font-weight: normal;
+          padding: 10px 8px;
+          border-radius:3px;
+          -webkit-border-radius:3px;
+          -o-border-radius:3px;
+          -moz-border-radius:3px;
+          cursor:pointer;
+          width:120px;
+          font-family:cursive;
+         }
+
+   /*latest news*/
+    div.create div.last-news{
+      /*width:300px;*/
+      float:left;
+      font-family:cursive;
+      margin:0 0 0 35px;
+      /*height:400px;*/
+    }
+    div.create div.last-news article p.title{
+      margin-left:30px;
+      font-size:22px;
+      letter-spacing:1px;
+      color:#000;
+      margin-bottom: 30px;
+      }
+     div.create div.last-news article div.news-container{
+      margin:0 0 20px 30px;
+      background:#F5F5F5;
+      box-shadow:2px 2px 3px #E0E0E0;
+      padding:0;
+    }
+      div.create div.last-news article div.news-container 
+       div.img{
+        float:left;
+        margin:10px 0 0 0;
+       }
+       div.create div.last-news article div.news-container 
+       div.img img{
+        width:270px;
+        height:185px;
+
+       }
+       div.create div.last-news article div.news-container 
+       div.inner-content{
+        float:left;
+        width:250px;
+        margin:0 0 0 15px;
+        padding-right:10px;
+        overflow:hidden;
+       /* display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;*/
+       }
+        div.create div.last-news article div.news-container 
+        div.inner-content p.news-title a{
+          text-decoration:none;
+          font-size:16px;
+          color:#000;
+        }
+        div.create div.last-news article div.news-container 
+        div.inner-content p.news-text{
+          font-size:13px;
+          color:#707070;
+          line-height:20px;
+
+        }
+        div.create div.last-news article div.news-container 
+        div.inner-content span{
+          display:inline-block;
+          font-size:13.5px;
+          color:#383838;
+        }
+        div.create div.last-news   article div.news-container 
+        div.inner-content a.view-more{
+          float:right;
+          text-decoration:none;
+        }
+ /* 
+-----------------------------------------------
+   End of Add news page 
+-----------------------------------------------
+*/
+/* 
+-----------------------------------------------
+   View-more page starts
+-----------------------------------------------
+*/  
+div#main div.article{
+   padding:30px 0 20px 100px;
+   margin:0 85px;
+}
+div.article article h2{
+   letter-spacing:1px;
+   color:#000;
+   margin-bottom: 30px;
+   font-size:22px;
+}
+div.article article div.image img{
+  width:1000px;
+  height:500px;
+}
+div.article article div.view-more-content {
+  width:1000px;
+  margin:10px 0 0 0;
+}
+div.article article div.view-more-content p{
+   font-size:14px;
+   color:#202020;
+   line-height:24px;
+   text-indent:50px;
+}
+div.article article div.date-and-author >span {
+display:block;
+font-size:13px;
+font-style:italic;
+color:#b30000;
+}
+/* 
+-----------------------------------------------
+   End of view-more page
+-----------------------------------------------
+*/
+/* 
+-----------------------------------------------
+   Login-Register page starts
+-----------------------------------------------
+*/
+div.log-reg-wrapper {
+  background: #de2e30;
+  width: 65%;
+  margin: 0 auto;
+  border:10px solid #de2e30;
+}
+div.log-reg-section{
+  
+}
+div.reg-form, div.log-form {
+  float:left;
+}
+div.reg-form {
+  padding-right:25px;
+  border-right:10px solid  #E8E8E8;
+  border-bottom:5px solid  #E8E8E8;
+  width:45%;
+  padding-bottom:20px;
+  /*box-sizing: border-box;*/
+}
+
+div.log-form {
+  padding-right:5px;
+  border-bottom: 5px solid  #E8E8E8;
+  padding-top:283px;
+  width:45%;
+  padding-bottom:20px;
+  /*box-sizing: border-box;*/
+}
+  
+  
+div.log-reg-section {
+  background:#dbdbdb;
+  padding: 10px;
+  
+}
+div.log-reg-section:after {
+  display: block;
+  clear:both;
+  content: "";
+  _zoom:1;
+  height: 0;
+}
+div.title > h1 {
+  color:#fff;
+  font-weight: normal;
+  font-family: 'times new roman';
+}
+div.reg-form form span input, div.log-form span input {
+  display: block;
+  font-size: 15px;
+  width: 350px;
+  margin: 0 0 0 20px;
+  padding: 5px 10px;
+  text-indent: 25px;
+  border-bottom: 2px solid  #de2e30;
+  border-left: 2px solid  #de2e30;
+}
+div.reg-form form span:first-child input {
+  margin-top:30px;
+}
+ div.reg-form form span {
+  position: relative;
+ }
+  div.reg-form form span img, div.log-form form span img {
+    position: relative;
+  }
+  div.reg-form form span:first-child img {
+    top:-30px;
+    left:20px;
+  }
+  div.reg-form form span:nth-child(2) img {
+    top:-30px;
+    left:20px;
+  }
+  div.reg-form form span:nth-child(3) img {
+    top:-30px;
+    left:20px;
+  }
+  div.reg-form form span:nth-child(4) img {
+    top:-30px;
+    left:20px;
+  }
+  div.reg-form form span:nth-child(5) img {
+    top:-30px;
+    left:20px;
+  }
+  div.reg-form form span:nth-child(6) img {
+    top:-30px;
+    left:20px;
+  }
+  
+div.reg-form input.reg, div.log-form input.log {
+  color:#fff;
+  font-weight: bold;
+  font-size: 25px;
+  border: 0;
+  margin: 25px 0 10px 20px;
+  width: 375px;
+  font-family: 'times new roman';
+}
+div.reg-form form  input.reg{
+  background: #ff0000 url(../img/register.png) 110px 3px no-repeat;
+}
+div.log-form form  input.log{
+  background: #ff0000 url(../img/arrow.png) 120px 3px no-repeat;
+}
+div.reg-form input.reg:hover {
+  cursor: pointer;
+}
+
+div.log-form input.log:hover {
+  cursor: pointer;
+}
+div.log-form form span:first-child img {
+    top:-30px;
+    left:20px;
+  }
+  div.log-form form span:nth-child(2) img {
+    top:-30px;
+    left:20px;
+  }
+
+/* 
+-----------------------------------------------
+   End of Login-Register page
+-----------------------------------------------
+*/
+
+/*
+-----------------------------------------------
+   Contacts page starts
+-----------------------------------------------
+*/
+ div.contact-page-content{
+   margin-bottom:0;
+   width:100%;
+ } 
+   div.contact-page-content div.main-title h2 {
+   /* margin:40px 0 0 40px;*/
+    margin:30px 0 30px 40px;
+    font-size:23px;
+    letter-spacing:1px;
+    color:#000;
+    font-family:Georgia;
+   }
+
+   /*
+   -------------------
+   left sidebar
+   -------------------
+   */
+   div.contact-page-content div.left-sidebar {
+    float:left;
+    border:1px solid #C0C0C0;
+    width:260px;
+    padding:20px 30px 0 40px;
+    border-bottom:none;
+    border-right:none;
+   }
+    /*Titles*/
+    div.left-sidebar aside div.information h4,
+    div.left-sidebar aside div.inquiries h4,
+    div.left-sidebar aside div.working-time h4
+     {
+      font-size:14px;
+      font-family:verdana;
+      color:#181818;
+    }
+    /*information-section*/
+    div.left-sidebar aside div.information p {
+      color:#707070;
+      font-size:12.5px;
+      line-height:21px;
+      font-weight:normal;
+      margin-bottom:40px;
+    }
+    /*inquiries-menu*/
+    div.left-sidebar aside div.inquiries ul.f-inquiries-menu
+    {
+      list-style:none;
+      margin:0;
+      padding:0;
+     }
+      div.left-sidebar aside div.inquiries ul.f-inquiries-menu li{
+        font-size:13px;
+        line-height:21px;
+        font-weight:normal;
+        color:#707070;
+      }
+      div.left-sidebar aside div.inquiries ul.s-inquiries-menu{
+        margin:20px 0 40px 0;
+        padding:0;
+        list-style:none;
+      }
+
+      div.left-sidebar aside div.inquiries ul.s-inquiries-menu li {
+        font-size:13px;
+        line-height:21px;
+        font-weight:normal;
+        color:#707070;
+        text-decoration:none;
+
+      }
+        div.left-sidebar aside div.inquiries ul.s-inquiries-menu li a{
+          text-decoration:none;
+          color:#707070;
+        }
+         div.left-sidebar aside div.inquiries ul.s-inquiries-menu li:first-child{
+          background: url('../img/phone1.png') left 5px no-repeat;
+          padding-left:20px;
+          }
+         div.left-sidebar aside div.inquiries ul.s-inquiries-menu li:nth-child(2){
+          background: url('../img/email1.png') left 5px no-repeat;
+          padding-left:20px;
+         }        
+         div.left-sidebar aside div.inquiries ul.s-inquiries-menu li:nth-child(3){
+          background: url('../img/earth.png') left 5px no-repeat;
+          padding-left:20px;
+         }  
+
+      /*Working time menu*/
+      
+      div.left-sidebar aside div.working-time ul{
+        margin:0;
+        padding:0;
+        list-style:none;
+        float:left;
+     
+      } 
+       div.left-sidebar aside div.working-time ul li{
+         font-size:12px;
+        line-height:21px;
+        font-weight:normal;
+        color:#707070;
+
+        
+       }   
+        div.left-sidebar aside div.working-time ul.f-working-time-menu li:first-child{
+          background: url('../img/clock.jpg') left 5px no-repeat;
+          padding-left:20px;
+         }
+        div.left-sidebar aside div.working-time ul.f-working-time-menu li:nth-child(2){
+          background: url('../img/clock.jpg') left 5px no-repeat;
+          padding-left:20px;
+         }
+        div.left-sidebar aside div.working-time ul.f-working-time-menu li:nth-child(3){
+          background: url('../img/closed.jpg') left 5px no-repeat;
+          padding-left:20px;
+         } 
+        div.left-sidebar aside div.working-time ul.f-working-time-menu li{
+          padding-right:20px;
+        }
+        div.left-sidebar aside div.working-time ul.s-working-time-menu li{
+          text-align:right
+      }
+
+
+    /*
+    -------------------
+    Еnd of left-sidebar
+    -------------------
+    */
+    /*
+    -------------------
+    left sidebar
+    ------------------- 
+    */
+
+   div.contact-page-content div.main-content-center{
+    float:left;
+    border:1px solid #C0C0C0;
+    width:994px;
+    padding-left:40px;
+    padding-top:20px;
+    border-bottom:none;
+    border-right:none;
+
+   }
+
+   div.contact-page-content div.main-content-center div.google-map{
+    margin-top:20px;
+    margin-bottom:30px;
+   }
+     /*Titles*/
+     div.contact-page-content div.main-content-center div.google-map h2,
+     div.contact-page-content div.main-content-center div.contact-form h2
+     {
+      font-size:16px;
+      font-family:verdana;
+      color:#000;
+      margin-bottom:20px;
+      font-weight:normal;
+   } 
+     /*form*/
+     div.main-content-center div.contact-form form span{
+      display:block;
+      padding-bottom:20px;
+      
+     }
+        div.main-content-center div.contact-form form span label{
+          display:block;
+          padding-bottom:10px;
+          font-size:13.5px;
+          font-weight:normal;
+          color:#707070;
+        }
+        div.main-content-center div.contact-form form span input{
+          width:200px;
+          height:30px;
+          border:1px solid #C0C0C0;
+          border-radius:2px;
+          -webkit-border-radius:2px;
+          -o-border-radius:2px;
+          -moz-border-radius:2px;
+         }
+         div.main-content-center div.contact-form form span textarea{
+          width:670px; 
+          height:200px;
+          resize:none;
+          background:#ffe6e6;
+         }
+         div.main-content-center div.contact-form form input.submit{
+          color:#fff;
+          background:#e60000;
+          border:1.5px solid #b30000;
+          font-weight: normal;
+          padding: 10px 8px;
+          border-radius:3px;
+          -webkit-border-radius:3px;
+          -o-border-radius:3px;
+          -moz-border-radius:3px;
+          cursor:pointer;
+          width:120px;
+          margin-bottom:40px;
+         }
+
+/* 
+-----------------------------------------------
+   End of Contacts page
+-----------------------------------------------
+*/
+
+/*
+
+--------------------------------------------------------------------------------------
+	End of main part
+--------------------------------------------------------------------------------------
+*/
+
+/*
+--------------------------------------------------------------------------------------
+  Footer starts
+--------------------------------------------------------------------------------------
+*/
+footer{
+  background: #484848;
+}
+div.main-footer{
+ padding-bottom:30px;
+
+}
+/*Text and title*/
+  div.main-footer div.text{
+    float:left;
+    width:300px;
+    margin-left: 100px;    
+
+  }
+  div.main-footer div.text h1{
+    color:#cc0000;
+    font-family: sans-serif;
+    font-size:50px;
+    text-align:center;
+    margin: 40px 0 0 0;
+    padding: 0;
+    
+  }
+    div.main-footer div.text h1>span{
+      font-size:18px;
+      color:#000;
+      font-weight: normal;
+      display:block;
+      margin:0 0 0 10px;
+      letter-spacing:10px;
+    }
+    div.main-footer div.text p {
+      text-indent:5%;
+      font-size:12px;
+      line-height:18px;
+      font-weight: normal;
+      color:#808080;
+    }
+/*End of Text and title*/
+
+/*Work-time menu*/
+    div.work-time{
+      float:left;
+      margin:25px 0 0 100px;
+    }
+      div.work-time h3{
+        color:#F0F0F0;
+        font-size:15px;
+        margin-bottom:10px
+
+      }
+      div.work-time ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+      }
+        div.work-time ul.f-bottom-menu {
+          float:left;
+        }
+        div.work-time ul.s-bottom-menu {
+          float:left;
+        }
+
+        div.work-time ul li {
+          border-bottom:1px solid #585858;
+          font-size:12px;
+          color:#F0F0F0;
+          padding:10px 105px 5px 0;
+          font-weight: bold;
+        }
+
+        div.work-time ul.s-bottom-menu li {
+          text-align:right;
+          padding-right:0;
+          color:#D3D3D3;
+        }
+
+
+/*Bottom-gallery */
+      div.bottom-gallery{
+       width:350px;
+       float:left;
+       margin:20px 0 0 100px;
+      }
+        div.bottom-gallery h3{
+        color:#F0F0F0;
+        font-size:15px;
+
+       }
+        div.bottom-gallery a img{
+          -webkit-filter: contrast(150%);  
+          filter: contrast(150%);
+          transition:1s;
+        }
+        div.bottom-gallery a img:hover{
+          -webkit-filter: contrast(100%); 
+          filter: contrast(100%);
+          transform: scale(1.1);
+        
+        }
+/*Bottom-Gallery ends*/
+
+div.copyright  {
+  background:#b80404;
+  padding: 20px
+}
+  div.copyright p{
+    float:left;
+    font-size:11px;
+    margin:0 0 0 20px;
+    color:#fff;
+    word-spacing:-1px;
+  }
+  div.copyright div.squares{
+    float:left;
+    margin:0 0 0 120px;
+    
+  }
+  /*div.copyright div.squares img {
+    width:15px;
+    height:15px;
+  }*/
+    div.copyright div.squares img{
+      width:25px;
+    }
+  div.copyright div.socialmedia{
+    float:left;
+    
+    margin: 0 0 0 195px;
+  }
+  div.copyright div.socialmedia img{
+    margin: 0 0 0 10px;
+  }
+/*
+  --------------------------------------------------------------------------------------
+  End of footer
+  --------------------------------------------------------------------------------------
+*/
+
